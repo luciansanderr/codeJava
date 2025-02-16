@@ -1,0 +1,17 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Pessoa;
+
+public class Program {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Quantas pessoas irá cadastrar?");
+		int n = sc.nextInt();
+		Pessoa[] vect = new Pessoa[n];
+		sc.close();
+	}
+
+}
